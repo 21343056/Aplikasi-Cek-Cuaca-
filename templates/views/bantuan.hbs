@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>FAQ</title>
+        <link rel="icon" href="/img/weather-icon.png">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        {{>header}}
+        <div class="main-content">
+            <h2>Kegunaan halaman ini</h2>
+            <p>
+                Kegunaan dari website ini adalah sebagai sarana untuk menyampaikan informasi cuaca
+                terbaru untuk pengunjung. Selain itu, website ini juga berisikan CV singkat dari
+                pembuat website serta pada website ini terdapat halaman berita yang berisikan 
+                sebuah berita menarik dan terbaru.
+            </p>
+            <p>
+                Dengan adanya website ini, pengunjung dapat dengan mudah mengakses informasi cuaca 
+                terkini, mengetahui CV singkat pembuat, dan mendapatkan berita terbaru yang 
+                sedang trending. Website ini juga dapat memberikan manfaat edukatif dan hiburan 
+                bagi pengunjung.
+            </p>
+            <h2>Apa itu API</h2>
+            <p>
+                API adalah singkatan dari Application Programming Interface, yaitu antarmuka yang
+                berfungsi sebagai penghubung antara satu aplikasi dengan aplikasi lainnya atau antara
+                klien dan server untuk membangun dan mengintegrasikan perangkat lunak aplikasi.
+                API memungkinkan produk atau layanan untuk berkomunikasi dengan aplikasi lainnya 
+                dengan menggunakan serangkaian definisi dan protokol. API dapat membantu para 
+                developer dalam menyederhanakan sebuah program menjadi lebih efektif dan cepat selesai.
+            </p>
+            <div class="image-container">
+                <img src="/img/API.png" width="450px">
+            </div>
+            <p>
+                Terdapat beberapa jenis API seperti Public API, Private API, dan Partner API. API
+                juga memiliki manfaat dalam memudahkan pembuatan aplikasi fungsional, meningkatkan
+                efisiensi waktu, fleksibilitas, dan menghemat biaya. Contoh API yang terkenal antara 
+                lain Google API, Facebook API, dan Amazon API Gateway. Dalam penggunaannya, API 
+                dapat melakukan request ke server dan memberikan response berupa data yang diminta.
+            </p>
+            <h2>API yang digunakan pada aplikasi ini</h2>
+            <div class="image-container">
+                <img src="/img/weatherstack_logo_footer.png" width="400px">
+            </div>
+            <p>
+                Pada aplikasi ini menggunakan API Weatherstack. API Weatherstack dibangun untuk memberikan informasi cuaca real-time, historis, dan masa depan untuk sebanyak mungkin lokasi di seluruh dunia, saat ini mencakup berbagai data cuaca yang luas untuk hampir seluruh planet dan menawarkannya dengan harga yang terjangkau kepada perusahaan besar maupun kecil, serta pengembang, pekerja lepas, dan individu di seluruh dunia. Seiring berjalannya waktu, weatherstack telah menjadi salah satu penyedia API data cuaca REST yang paling populer di pasar karena kemudahan implementasinya dan konsistensi data.
+            </p>
+            <h2>Salah satu pola arsitektur API : GraphQL</h2>
+            <div class="image-container">
+                <img src="/img/graphql.png" width="500px">
+            </div>
+            <p>
+                GraphQL adalah bahasa query dan runtime sisi server untuk Application Programming 
+                Interfaces (API). GraphQL memungkinkan klien untuk mengambil hanya data yang 
+                diperlukan, menggabungkan permintaan, dan memperoleh data dari beberapa sumber dalam
+                satu permintaan. GraphQL berada di antara RESTful dan gRPC dalam hal fungsionalitas
+                dan kompleksitas. 
+            </p>
+            <p>
+                Keuntungan GraphQL adalah fleksibilitas dalam mengambil data yang diinginkan dan
+                mengurangi jumlah permintaan ke server. Namun, fleksibilitas ini dapat membuat 
+                caching menjadi sulit, dan GraphQL mungkin bukan pilihan terbaik untuk aplikasi 
+                sederhana yang berbasis sumber daya.
+            </p>
+            <p>
+                Dalam pengembangan aplikasi, pemilihan antara GraphQL dan teknologi API lainnya 
+                tergantung pada kebutuhan proyek, kompleksitas data yang ditangani, dan faktor-faktor
+            lain seperti kecepatan, skalabilitas, dan kemudahan pengembangan.
+            </p>
+        </div>
+        {{>footer}}
+    </body>
+</html>
